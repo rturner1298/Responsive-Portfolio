@@ -1,0 +1,83 @@
+
+.wrapper{
+    background: grey;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    float: left;
+}
+.content{
+    width: 920px;
+    height: 600px;
+    background: white;
+    padding-left: 100px;
+    padding-right: 20px;
+    padding-top: 20px;
+    
+}
+
+#portfolio{
+
+        font-size: 24px;
+        color: teal;
+        padding-left: 20px;
+        font-weight: bold;
+}
+#img1{
+    transform: rotate(90deg);
+    background: white;
+    padding-right: 1px;
+    padding-top: 90px;
+    margin-right: 5px;
+    float: left;
+  }
+
+  #img2{
+    transform: rotate(90deg);
+    padding-right: 5px;
+    padding-top: 90px;
+    padding-bottom: 5px;
+    margin-left: 1px;
+    float: left;
+  }
+  #img3{
+    clear: both;
+    transform: rotate(90deg);
+    padding-right: 30px;
+    padding-top: 150px;
+    margin-left: 15px;
+    float: left;
+  }
+  /* #img4{
+    transform: rotate(90deg);
+    float: left;
+  }
+  #img5{
+    clear: both;
+    transform: rotate(90deg);
+    float: left;
+  }
+  #img6{
+    transform: rotate(90deg);
+    float: left;
+  } */
+
+  @media screen and (max-width:1200px){
+    body{
+      width: 90%;
+   } 
+
+   .wrapper{
+     width: 90%;
+ }
+ .content{
+
+     width: 90%;
+ }
+#img2{
+  padding-bottom: 40px;
+  padding-right: 1px;
+}
+ }
+  
